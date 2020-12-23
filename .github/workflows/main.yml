@@ -58,7 +58,7 @@ jobs:
           script: |
             sudo docker pull ivanzorya/yamdb_final:latest
             sudo docker stop $(sudo docker ps -a -q)
-            sudo docker-compose up
+            sudo docker run --rm -d ivanzorya/yamdb_final:latest
 
   send_message:
     runs-on: ubuntu-latest

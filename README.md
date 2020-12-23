@@ -1,7 +1,7 @@
 # api_yamdb
 ### REST API для сервиса — базы отзывов о фильмах, книгах и музыке.
 
-![server status](https://github.com/ivanzorya/yamdb_final/workflows/api-yamdb/badge.svg)
+[![Actions Status](https://github.com/ivanzorya/yamdb_final/workflows/api-yamdb/badge.svg)](https://github.com/ivanzorya/yamdb_final/actions)
 
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
