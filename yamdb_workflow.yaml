@@ -57,8 +57,8 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             sudo docker pull ivanzorya/yamdb_final:latest
-            sudo docker stop $(sudo docker ps -a -q)
             cd yamdb_final/
+            sudo docker-compose stop
             sudo docker-compose up -d
 
   send_message:
